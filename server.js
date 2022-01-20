@@ -43,4 +43,3 @@ const connectedServer = server.listen(PORT, ()=>{
 })
 connectedServer.on("error", error => console.log(`Error en servidor ${error}`));
 
-//para probar voy al navegador y pongo http://localhost:8080
