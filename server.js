@@ -12,7 +12,7 @@ const server = express(); // se suele poner a la variable app o server
 const PORT = 8080;
 
 //creo objeto con los datos de productos.txt
-const contenedorProductos = new Contenedor(".productos.txt");
+const contenedorProductos = new Contenedor("./productos.txt");
 
 //PRINCIPAL
 server.get("/",(request,response)=>response.send("Desafio Clase 06"));
